@@ -15,12 +15,11 @@ public class Currency implements CurrencyDTO, Serializable {
     private String name;
     
     public Currency(){}
-    public Currency(String code, String name, double rate){
+    public Currency(String code, String name){
         this.code = code;
         this.name = name;
-        this.rate = rate;
     }
-
+    
     @Override
     public double getRate() {
         return this.rate;
