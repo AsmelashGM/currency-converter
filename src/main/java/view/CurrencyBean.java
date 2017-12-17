@@ -3,6 +3,7 @@ public class CurrencyBean {
     String code;
     String name;
     
+    public CurrencyBean() {}
     public CurrencyBean(String code, String name) {
         this.code = code;
         this.name = name;
